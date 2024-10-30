@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VirtualLockerAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc6d84867da28e8afccd200155e859a18b527ce4")]
 [assembly: System.Reflection.AssemblyProductAttribute("VirtualLockerAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VirtualLockerAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

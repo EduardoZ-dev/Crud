@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eduardo Zequeira G\\source\\repos\\VirtualLockerAPI\\VirtualLockerAPI\\VirtualLockerAPI.csproj": {}
+    "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\VirtualLockerAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eduardo Zequeira G\\source\\repos\\VirtualLockerAPI\\VirtualLockerAPI\\VirtualLockerAPI.csproj": {
+    "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\VirtualLockerAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduardo Zequeira G\\source\\repos\\VirtualLockerAPI\\VirtualLockerAPI\\VirtualLockerAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\VirtualLockerAPI.csproj",
         "projectName": "VirtualLockerAPI",
-        "projectPath": "C:\\Users\\Eduardo Zequeira G\\source\\repos\\VirtualLockerAPI\\VirtualLockerAPI\\VirtualLockerAPI.csproj",
+        "projectPath": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\VirtualLockerAPI.csproj",
         "packagesPath": "C:\\Users\\Eduardo Zequeira G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduardo Zequeira G\\source\\repos\\VirtualLockerAPI\\VirtualLockerAPI\\obj\\",
+        "outputPath": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

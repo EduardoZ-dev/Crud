@@ -1,0 +1,54 @@
+﻿@model List<VirtualLockerAPI.Models.Product>
+
+
+<h2 class="text-center mb-5">Lista de Productos</h2>
+
+@if(TempData["SuccessMessage"] !=null)
+{
+    <div class="alert-success" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<div class="row mb-5">
+    <div class="col">
+        <a class='btn btn-primary' asp-area="" asp-controller="Item" asp-action="Create">Nuevo Producto</a>
+    </div>
+    <div class="col">
+
+    </div>
+</div>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Marca</th>
+        <th>Categoria</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+        <th>Creado el</th>
+        <th>Acción</th>
+    </tr>
+
+    @foreach(var product in Model)
+    {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Brand</td>
+            <td>@product.Category</td>
+            <td>@(product.Price)$</td>
+            <td><img src="/Imagenes/@product.ImageFileName" width="100"/><td>
+            <td>@product.CreatedAt.ToString("MM/dd/yyyy")</td>
+            <td style="white-space:nowrap">
+                <a class='btn btn-primary' asp-area=""
+                asp-controller="Item" asp-action="Edit" asp-route-id="@product.Id">Editar</a>
+                <a class="btn btn-danger btn-sm" href="/Views/Item/Delete?id=@product.Id">Eliminar</a>
+            </td>
+        </tr>
+    }
+
+
+
+</table>
