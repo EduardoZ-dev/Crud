@@ -1,0 +1,47 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+bin/
+obj/
+out/
+
+# Archivos de usuario de Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de caché, logs, y bases de datos locales
+*.log
+*.cache
+*.pdb
+*.mdb
+*.opendb
+*.log
+*.ldf
+
+# Configuración de paquetes
+*.nupkg
+*.snupkg
+packages/
+*.nuget/
+
+# Publicaciones
+publish/
+wwwroot/images/   # Si deseas ignorar imágenes de prueba
+
+# Archivos de configuración secretos
+secrets.json
+
+# Configuración de IDE específicos
+.idea/
+*.code-workspace
+*.sln.iml
+
+# Configuración de dependencias
+node_modules/
+dist/
