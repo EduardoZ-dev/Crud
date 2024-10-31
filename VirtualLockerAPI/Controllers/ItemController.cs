@@ -84,17 +84,81 @@ namespace VirtualLockerAPI.Controllers
         public async Task<IActionResult> Edit(int Id)
         {
             Product product = await _context.Products.FirstAsync(x => x.Id == Id);
-            return View();
+            return View(product);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Editar(Product product)
+        public async Task<IActionResult> Edit(Product product, IFormFile imageFileName)
         {
-            _context.Products.Update(product);
+
+            var existingProduct = await _context.Products.FindAsync(product.Id);
+
+            if(existingProduct == null)
+            {
+                return NotFound();
+            }
+
+            existingProduct.Name = product.Name;
+            existingProduct.Brand = product.Brand;
+            existingProduct.Category = product.Category;
+            existingProduct.Price = product.Price;
+            existingProduct.Description = product.Description;
+
+
+            if(imageFileName != null && imageFileName.Length > 0)
+            {
+                var filePath = Path.Combine("wwwroot/images", imageFileName.FileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFileName.CopyToAsync(stream);
+                }
+                existingProduct.ImageFileName = imageFileName.FileName;
+            }
+
+
             await _context.SaveChangesAsync();
             return RedirectToAction("GetList");
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var product = await _context.Products.FirstOrDefaultAsync(x => x.Id == id);
+
+            if(product == null)
+            {
+                return NotFound();
+            }
+            
+            return View(product);
+
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var product = await _context.Products.FindAsync(id);
+
+            if(product == null)
+            {
+                return NotFound();
+            }
+
+            if (!string.IsNullOrEmpty(product.ImageFileName))
+            {
+                var filePath = Path.Combine("wwwroot/images", product.ImageFileName);
+                if (System.IO.File.Exists(filePath))
+                {
+                    System.IO.File.Delete(filePath);
+                }
+            }
+
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("GetList");
+
+        }
 
         public IActionResult GetList()
         {

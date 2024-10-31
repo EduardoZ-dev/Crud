@@ -44,7 +44,7 @@
             <td style="white-space:nowrap">
                 <a class='btn btn-primary' asp-area=""
                 asp-controller="Item" asp-action="Edit" asp-route-id="@product.Id">Editar</a>
-                <a class="btn btn-danger btn-sm" href="/Views/Item/Delete?id=@product.Id">Eliminar</a>
+                <a asp-action="Delete" asp-route-Id="@product.Id" class="btn btn-danger">Eliminar</a>
             </td>
         </tr>
     }

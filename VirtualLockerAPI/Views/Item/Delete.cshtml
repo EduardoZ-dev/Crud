@@ -1,0 +1,27 @@
+﻿@model VirtualLockerAPI.Models.Product
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5">Eliminar Producto</h2>
+        <h4>¿Estás seguro de que deseas eliminar el siguiente producto?</h4>
+
+
+        <div>
+            <p><strong>Nombre:</strong> @Model.Name</p>
+            <p><strong>Marca:</strong> @Model.Brand</p>
+            <p><strong>Categoría:</strong> @Model.Category</p>
+            <p><strong>Precio:</strong> @Model.Price</p>
+            <p><strong>Descripción:</strong> @Model.Description</p>
+        </div>
+
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div class="mt-3">
+                <!-- Botón de eliminación dentro del formulario para confirmar -->
+                <button type="submit" class="btn btn-danger">Eliminar</button>
+                <!-- Botón para cancelar, redirige a la lista -->
+                <a asp-action="GetList" asp-controller="Item" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>
