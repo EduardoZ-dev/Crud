@@ -1,26 +1,27 @@
 ﻿@model VirtualLockerAPI.Models.Product
 
-<div class="row">
-    <div class="col-md-8 mx-auto rounded border p-3">
-        <h2 class="text-center mb-5">Eliminar Producto</h2>
-        <h4>¿Estás seguro de que deseas eliminar el siguiente producto?</h4>
+<div class="row justify-content-center">
+    <div class="col-md-8 mx-auto rounded border p-4 bg-light shadow-sm">
+        <h2 class="text-center mb-4 text-danger">Eliminar Producto</h2>
+        <h4 class="text-center mb-4">¿Estás seguro de que deseas eliminar el siguiente producto?</h4>
 
-
-        <div>
+        <!-- Información del producto -->
+        <div class="bg-white p-3 rounded mb-4 shadow-sm">
             <p><strong>Nombre:</strong> @Model.Name</p>
             <p><strong>Marca:</strong> @Model.Brand</p>
             <p><strong>Categoría:</strong> @Model.Category</p>
-            <p><strong>Precio:</strong> @Model.Price</p>
+            <p><strong>Precio:</strong> $@Model.Price</p>
             <p><strong>Descripción:</strong> @Model.Description</p>
         </div>
 
+        <!-- Formulario para confirmar la eliminación -->
         <form asp-action="Delete" method="post">
             <input type="hidden" asp-for="Id" />
-            <div class="mt-3">
-                <!-- Botón de eliminación dentro del formulario para confirmar -->
+            <div class="d-flex justify-content-between">
+                <!-- Botón para confirmar la eliminación -->
                 <button type="submit" class="btn btn-danger">Eliminar</button>
-                <!-- Botón para cancelar, redirige a la lista -->
-                <a asp-action="GetList" asp-controller="Item" class="btn btn-secondary">Cancelar</a>
+                <!-- Botón para cancelar, que redirige a la lista -->
+                <a asp-action="GetList" asp-controller="Item" class="btn btn-outline-secondary">Cancelar</a>
             </div>
         </form>
     </div>

@@ -1,20 +1,28 @@
 ﻿@using System.Security.Claims;
 
-
 @{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    @if (User.Identity!.IsAuthenticated)
-    {
-        <h1 class="display-4">Bienvenido
+<!-- Contenedor con alineación centrada y estilo -->
 
-            @User.Claims.Where(c => c.Type == ClaimTypes.Name).Select(c => c.Value).SingleOrDefault()
-        </h1>
-    }
+<div class="background-info" style="background-color:transparent">
+            @if (User.Identity!.IsAuthenticated)
+            {
+                <h1 class="display-4 mb-4 text-primary">
+                    Bienvenido,
+                    <span class="fw-bold text-success">
+                        @User.Claims.Where(c => c.Type == ClaimTypes.Name).Select(c => c.Value).SingleOrDefault()
+                    </span>
+                </h1>
+            }
+            <div style="background-color: transparent">
+                <p class="text-success fs-5 mb-4">
+                    Tienes acceso a tu casillero virtual. Puedes disfrutar de realizar un catálogo de todas las compras que piensas realizar.
+                </p>
+            </div>
+            <div class="text-center mt-4" style="background-color: rgba(255, 255, 255, 0.5);">
+                  <a class="btn btn-success" asp-area="" asp-controller="Item" asp-action="Create">Accede a tu catalogo</a>
+           </div>
+        </div>
 
-    
-    
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>

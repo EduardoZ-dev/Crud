@@ -1,12 +1,13 @@
-﻿@model VirtualLockerAPI.Models.Product;
+﻿@model VirtualLockerAPI.Models.Product
 
-<div class="row">
-    <div class="col-md-8 mx-auto rounded border p-3">
-        <h2 class="text-center mb-5">Editar Producto</h2>
+<div class="row justify-content-center">
+    <div class="col-md-8 mx-auto rounded border p-4 bg-light shadow-sm">
+        <h2 class="text-center mb-4 text-success">Editar Producto</h2>
 
         <form asp-controller="Item" asp-action="Edit" method="post" enctype="multipart/form-data">
-            <input asp-for="Id" type="hidden"/>
-            <div class="row mb-3">
+            <input asp-for="Id" type="hidden" />
+
+            <div class="mb-3 row">
                 <label class="col-sm-4 col-form-label">Nombre</label>
                 <div class="col-sm-8">
                     <input class="form-control" asp-for="Name" />
@@ -14,7 +15,7 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="mb-3 row">
                 <label class="col-sm-4 col-form-label">Marca</label>
                 <div class="col-sm-8">
                     <input class="form-control" asp-for="Brand" />
@@ -22,12 +23,12 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="mb-3 row">
                 <label class="col-sm-4 col-form-label">Categoría</label>
                 <div class="col-sm-8">
                     <select class="form-select" asp-for="Category">
                         <option value="Other">Otros</option>
-                        <option value="Phones">Phones</option>
+                        <option value="Phones">Móvil</option>
                         <option value="Computers">Computadores</option>
                         <option value="Accessories">Accesorios</option>
                         <option value="Printers">Impresoras</option>
@@ -36,42 +37,64 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-4" col-form-label>Precio</label>
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Precio</label>
                 <div class="col-sm-8">
                     <input class="form-control" asp-for="Price" />
                     <span asp-validation-for="Price" class="text-danger"></span>
                 </div>
             </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-4" col-form-label>Descripción</label>
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Descripción</label>
                 <div class="col-sm-8">
                     <textarea class="form-control" asp-for="Description"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="mb-3 row">
                 <label class="col-sm-4 col-form-label">Imagen</label>
                 <div class="col-sm-8">
                     <input class="form-control" asp-for="ImageFileName" type="file" />
                     <span asp-validation-for="ImageFileName" class="text-danger"></span>
+                    <!-- Previsualización de la imagen -->
+                    <div id="image-preview" class="mt-3">
+                        <img id="preview-image" src="@Model.ImageFileName" alt="Previsualización de la imagen" class="img-fluid" style="display: none;" />
+                    </div>
                 </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="mb-3 row">
                 <div class="offset-sm-4 col-sm-4 d-grid">
-                    <button type="submit" class="btn btn-primary">Actualizar</button>
-                    <a asp-controller="Item" asp-action="GetList"></a>
+                    <button type="submit" class="btn btn-success">Actualizar Producto</button>
                 </div>
                 <div class="col-sm-4 d-grid">
-                    <a class="btn btn-outline-primary" href="/Views/Item/GetList" role="button">Cancelar</a>
+                    <a class="btn btn-outline-secondary" href="/Views/Item/GetList" role="button">Cancelar</a>
                 </div>
             </div>
         </form>
     </div>
 </div>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Previsualización de la imagen antes de subir
+        const imageInput = document.querySelector('input[type="file"]');
+        const previewImage = document.getElementById("preview-image");
+
+        imageInput.addEventListener("change", function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    previewImage.src = e.target.result;
+                    previewImage.style.display = "block"; // Mostrar imagen previsualizada
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    });
+</script>
 
 

@@ -3,11 +3,13 @@ using VirtualLockerAPI;
 using VirtualLockerAPI.Controllers;
 
 using Microsoft.AspNetCore.Authentication.Cookies;
+using BlazorStrap;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddBlazorStrap();
 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -32,7 +34,6 @@ app.UseStaticFiles();
 
 app.UseRouting();
 app.UseAuthentication();
-
 
 app.UseAuthorization();
 

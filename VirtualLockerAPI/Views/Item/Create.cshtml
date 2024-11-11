@@ -1,25 +1,27 @@
 ﻿@model VirtualLockerAPI.DTO_s.ProductDTO;
 
-<div class="row">
-    <div class="col-md-8 mx-auto rounded border p-3">
-        <h2 class="text-center mb-5">Nuevo Producto</h2>
+<div class="row justify-content-center">
+    <div class="col-md-8 mx-auto rounded border p-4 bg-light shadow-sm">
+        <h2 class="text-center mb-5 text-success">Nuevo Producto</h2>
 
         @if (TempData["ErrorMessage"] != null)
         {
-            <div class="alert alert-danger" role="alert">
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
                 @TempData["ErrorMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         }
 
         @if (TempData["SuccessMessage"] != null)
         {
-            <div id="success-alert" class="alert alert-success" role="alert">
+            <div id="success-alert" class="alert alert-success alert-dismissible fade show" role="alert">
                 @TempData["SuccessMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         }
 
         <form method="post" enctype="multipart/form-data">
-            <div class="row mb-3">
+            <div class="mb-3 row">
                 <label class="col-sm-4 col-form-label">Nombre</label>
                 <div class="col-sm-8">
                     <input class="form-control" asp-for="Name" />
@@ -27,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="mb-3 row">
                 <label class="col-sm-4 col-form-label">Marca</label>
                 <div class="col-sm-8">
                     <input class="form-control" asp-for="Brand" />
@@ -35,12 +37,12 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="mb-3 row">
                 <label class="col-sm-4 col-form-label">Categoría</label>
                 <div class="col-sm-8">
                     <select class="form-select" asp-for="Category">
                         <option value="Other">Otros</option>
-                        <option value="Phones">Phones</option>
+                        <option value="Phones">Móvil</option>
                         <option value="Computers">Computadores</option>
                         <option value="Accessories">Accesorios</option>
                         <option value="Printers">Impresoras</option>
@@ -49,23 +51,23 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-4" col-form-label>Precio</label>
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Precio</label>
                 <div class="col-sm-8">
                     <input class="form-control" asp-for="Price" />
                     <span asp-validation-for="Price" class="text-danger"></span>
                 </div>
             </div>
 
-            <div class="row mb-3">
-                <label class="col-sm-4" col-form-label>Descripción</label>
+            <div class="mb-3 row">
+                <label class="col-sm-4 col-form-label">Descripción</label>
                 <div class="col-sm-8">
                     <textarea class="form-control" asp-for="Description"></textarea>
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="mb-3 row">
                 <label class="col-sm-4 col-form-label">Imagen</label>
                 <div class="col-sm-8">
                     <input class="form-control" asp-for="ImageFileName" type="file" />
@@ -73,12 +75,12 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
+            <div class="mb-3 row">
                 <div class="offset-sm-4 col-sm-4 d-grid">
-                    <button type="submit" class="btn btn-primary">Crear</button>
+                    <button type="submit" class="btn btn-success">Crear</button>
                 </div>
                 <div class="col-sm-4 d-grid">
-                    <a class="btn btn-outline-primary" href="/Views/Item/GetList" role="button">Cancelar</a>
+                    <a class="btn btn-outline-secondary" href="/Views/Item/GetList" role="button">Cancelar</a>
                 </div>
             </div>
         </form>
@@ -90,9 +92,8 @@
         var successAlert = document.getElementById("success-alert");
         if (successAlert) {
             setTimeout(function () {
-                successAlert.style.display = "none"; // Ocultar el mensaje
+                successAlert.classList.remove("show"); // Ocultar el mensaje de éxito
             }, 5000); // 5000 ms = 5 segundos
         }
     });
 </script>
-yo

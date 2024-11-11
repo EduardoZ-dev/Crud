@@ -1,4 +1,4 @@
-html {
+/*html {
   font-size: 14px;
 }
 
@@ -10,7 +10,7 @@ html {
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
+}*/
 
 html {
   position: relative;
@@ -18,5 +18,42 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: url('../images/producto.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.background-info {
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: transparent;
+    padding: 30px;
+    border-radius: 8px;
+    gap: 20px; /* Espacio entre el título y el texto */
+}
+/* Estilos del título */
+.background-info h1 {
+    text-align: left;
+    font-size: 70px;
+    flex-shrink: 0; /* Mantiene el tamaño del título sin comprimirse */
+    color: #0D2622;
+    max-width: 1000px;
+}
+
+/* Estilos del párrafo */
+.background-info p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0D2622;
+    margin: 0;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+span {
+    color: #52BF04;
+}
 }

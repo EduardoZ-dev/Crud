@@ -7,45 +7,55 @@
 <head>
     <title>Login</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
+
 </head>
 <body>
 
-    <div class="row mt-5 justify-content-center">
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Iniciar Sesion
-                </div>
-                <div class="card-body">
+    
+    
+        <div class="row mt-5 justify-content-center">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header" style="text-align:center; background-color: #0D2622; color:white; font-size: 20px; padding: 10px;">
+                        Iniciar Sesión es tu <span style="color: #52BF04">Casillero</span>
+                    </div>
+                    <div class="card-body">
 
-
-                    <form asp-controller="Acceso" asp-action="Login" method="post">                        
-                        <input class="form-control mb-3" type="email" placeholder="Correo" required asp-for="Correo" />
-                        <input class="form-control mb-3" type="password" placeholder="Contraseña" required asp-for="Clave" />
-                        <div>
-                            <button class="btn btn-primary" type="submit">Iniciar Sesion</button>
-                        </div>
-
-
-                        @if (ViewData["Mensaje"] != null)
-                        {
-                            <div class="alert alert-danger" role="alert">
-                                @ViewData["Mensaje"]
+                        <form asp-controller="Acceso" asp-action="Login" method="post">
+                            <div class="form-floating mb-3">
+                                <input class="form-control mb-3" type="email" id="floatingInput" placeholder="Correo" required asp-for="Correo" />
+                                <label for="floatingInput">Ingresa Email</label>
                             </div>
-                        }
-                        ¿No tienes una cuenta? <a asp-controller="Acceso" asp-action="Registrarse">Registrarte Ya!</a>
-                    </form>
+                            <div class="form-floating">
+                                <input class="form-control mb-3" type="password" id="floatingPassword" placeholder="Contraseña" required asp-for="Clave" />
+                                <label for="floatingPassword">Clave</label>
+                            </div>
 
+                            <div style="text-align:center; margin-top:1rem">
+                                <button class="btn btn-primary" type="submit" style="background-color:#52BF04;border-color:#52BF04;">Iniciar Sesion</button>
+                            </div>
+
+
+                            @if (ViewData["Mensaje"] != null)
+                            {
+                                <div class="alert alert-danger" role="alert">
+                                    @ViewData["Mensaje"]
+                                </div>
+                            }
+                            <div style="text-align:center; margin-top:1rem">
+                                ¿No tienes una cuenta? <a asp-controller="Acceso" asp-action="Registrarse">Registrarte Ya!</a>
+                            </div>
+
+
+                        </form>
+
+                    </div>
                 </div>
             </div>
-
         </div>
-
-    </div>
-
-
-
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>
