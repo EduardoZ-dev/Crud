@@ -61,11 +61,11 @@ namespace VirtualLockerAPI.Controllers
                         await productDto.ImageFileName.CopyToAsync(fileStream);
                     }
 
-                    product.ImageFileName = "images/" + uniqueFileName;
+                    product.ImageFileName = "/images/" + uniqueFileName;
                 }
                 else
                 {
-                    product.ImageFileName = "images/default.png";
+                    product.ImageFileName = "/images/default.png";
                 }
 
                 _context.Products.Add(product);

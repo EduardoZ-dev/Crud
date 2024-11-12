@@ -9,63 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VirtualLockerAPI
 build_property.RootNamespace = VirtualLockerAPI
-build_property.ProjectDir = C:\Users\PC\Desktop\Login\Login\VirtualLockerAPI\
+build_property.ProjectDir = C:\Users\Eduardo Zequeira G\Desktop\Dev\Proyectos dotnet\Nueva carpeta\Login\VirtualLockerAPI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\PC\Desktop\Login\Login\VirtualLockerAPI
+build_property.MSBuildProjectDirectory = C:\Users\Eduardo Zequeira G\Desktop\Dev\Proyectos dotnet\Nueva carpeta\Login\VirtualLockerAPI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Acceso/Login.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Acceso/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Acceso/Registrarse.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Acceso/Registrarse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXFJlZ2lzdHJhcnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Home/Index.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Home/Privacy.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Item/Create.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Home/ProductLink.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0TGluay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Item/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Item/Delete.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Item/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Item/Edit.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Item/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Item/GetList.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Item/GetList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxHZXRMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Shared/Error.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Link/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlua1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/_ViewImports.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/_ViewStart.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Desktop/Login/Login/VirtualLockerAPI/Views/Shared/_Layout.cshtml]
+[C:/Users/Eduardo Zequeira G/Desktop/Dev/Proyectos dotnet/Nueva carpeta/Login/VirtualLockerAPI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-abaf5gpbdm

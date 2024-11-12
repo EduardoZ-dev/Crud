@@ -41,12 +41,12 @@
                 <label class="col-sm-4 col-form-label">Categoría</label>
                 <div class="col-sm-8">
                     <select class="form-select" asp-for="Category">
-                        <option value="Other">Otros</option>
-                        <option value="Phones">Móvil</option>
-                        <option value="Computers">Computadores</option>
-                        <option value="Accessories">Accesorios</option>
-                        <option value="Printers">Impresoras</option>
-                        <option value="Cameras">Cámaras</option>
+                        <option value="Otros">Otros</option>
+                        <option value="Telefonos">Móvil</option>
+                        <option value="Computadores">Computadores</option>
+                        <option value="Accessorios">Accesorios</option>
+                        <option value="Impresoras">Impresoras</option>
+                        <option value="Camáras">Cámaras</option>
                     </select>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                     <button type="submit" class="btn btn-success">Crear</button>
                 </div>
                 <div class="col-sm-4 d-grid">
-                    <a class="btn btn-outline-secondary" href="/Views/Item/GetList" role="button">Cancelar</a>
+                    <a class="btn btn-outline-secondary" asp-area="" asp-controller="Item" asp-action="GetList">Cancelar</a>
                 </div>
             </div>
         </form>

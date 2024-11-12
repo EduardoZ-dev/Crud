@@ -1,38 +1,102 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\",
+  "WorkspaceRootPath": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\proyectovirtuallocker\\login\\virtuallockerapi\\views\\item\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\item\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\controllers\\linkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\controllers\\linkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\proyectovirtuallocker\\login\\virtuallockerapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\models\\linksubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\models\\linksubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\proyectovirtuallocker\\login\\virtuallockerapi\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\link\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\link\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\proyectovirtuallocker\\login\\virtuallockerapi\\views\\item\\getlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\item\\getlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\proyectovirtuallocker\\login\\virtuallockerapi\\views\\item\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\item\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\proyectovirtuallocker\\login\\virtuallockerapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\proyectovirtuallocker\\login\\virtuallockerapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\proyectovirtuallocker\\login\\virtuallockerapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\item\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\controllers\\policycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\home\\productlink.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\home\\productlink.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\item\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\item\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\acceso\\registrarse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\acceso\\registrarse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\acceso\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\item\\getlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\item\\getlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\views\\item\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\views\\item\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|c:\\users\\eduardo zequeira g\\desktop\\dev\\proyectos dotnet\\nueva carpeta\\login\\virtuallockerapi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4096847F-3FDD-414F-AF7C-537D63472A93}|VirtualLockerAPI\\VirtualLockerAPI.csproj|solutionrelative:virtuallockerapi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +106,296 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Item\\Create.cshtml",
-              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Item\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Item\\Create.cshtml",
-              "RelativeToolTip": "VirtualLockerAPI\\Views\\Item\\Create.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Link\\Create.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Link\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Link\\Create.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Link\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T12:15:21.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T05:07:02.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Item\\Create.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Item\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Item\\Create.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Item\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAFMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T23:36:17.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PolicyController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Controllers\\PolicyController.cs",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Controllers\\PolicyController.cs",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Controllers\\PolicyController.cs",
+              "RelativeToolTip": "VirtualLockerAPI\\Controllers\\PolicyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T05:04:11.951Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Item\\Delete.cshtml",
-              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Item\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Item\\Delete.cshtml",
-              "RelativeToolTip": "VirtualLockerAPI\\Views\\Item\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T11:56:54.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetList.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Item\\GetList.cshtml",
-              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Item\\GetList.cshtml",
-              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Item\\GetList.cshtml",
-              "RelativeToolTip": "VirtualLockerAPI\\Views\\Item\\GetList.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACoAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T15:08:43.682Z",
+              "Title": "LinkController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Controllers\\LinkController.cs",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Controllers\\LinkController.cs",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Controllers\\LinkController.cs",
+              "RelativeToolTip": "VirtualLockerAPI\\Controllers\\LinkController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T05:04:09.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ItemController.cs",
-              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Controllers\\ItemController.cs",
-              "RelativeDocumentMoniker": "VirtualLockerAPI\\Controllers\\ItemController.cs",
-              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Controllers\\ItemController.cs",
-              "RelativeToolTip": "VirtualLockerAPI\\Controllers\\ItemController.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAwwI4AAAANAAAAAAAAAA==",
+              "Title": "LinkSubmission.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Models\\LinkSubmission.cs",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Models\\LinkSubmission.cs",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Models\\LinkSubmission.cs",
+              "RelativeToolTip": "VirtualLockerAPI\\Models\\LinkSubmission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T22:27:24.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T05:03:38.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "VirtualLockerAPI\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ProductLink.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Home\\ProductLink.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Home\\ProductLink.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Home\\ProductLink.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Home\\ProductLink.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T10:25:11.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T05:00:38.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VirtualLockerAPI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T04:25:03.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AboutUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Home\\AboutUs.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Home\\AboutUs.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Home\\AboutUs.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Home\\AboutUs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T04:33:59.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "VirtualLockerAPI\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAiwJ4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T04:07:29.72Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Item\\Edit.cshtml",
-              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Item\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Item\\Edit.cshtml",
-              "RelativeToolTip": "VirtualLockerAPI\\Views\\Item\\Edit.cshtml",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwDwAAAASAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T02:30:33.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T23:07:04.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T04:29:56.339Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "VirtualLockerAPI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T10:24:47.916Z",
-              "EditorCaption": ""
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\ApplicationDbContext.cs",
+              "RelativeToolTip": "VirtualLockerAPI\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T05:09:08.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "VirtualLockerAPI\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\ProyectoVirtualLocker\\Login\\VirtualLockerAPI\\Models\\Product.cs",
-              "RelativeToolTip": "VirtualLockerAPI\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Acceso\\Login.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Acceso\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Acceso\\Login.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Acceso\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T04:09:25.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T23:12:06.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Item\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Item\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Item\\Delete.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Item\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T01:24:58.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T23:00:32.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Registrarse.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Acceso\\Registrarse.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Acceso\\Registrarse.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Acceso\\Registrarse.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Acceso\\Registrarse.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T04:51:15.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Item\\GetList.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Item\\GetList.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Item\\GetList.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Item\\GetList.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T23:22:41.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Program.cs",
+              "RelativeToolTip": "VirtualLockerAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T02:35:37.894Z"
+              "WhenOpened": "2024-11-11T04:55:39.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Models\\Product.cs",
+              "RelativeToolTip": "VirtualLockerAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T04:24:34.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccesoController.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Controllers\\AccesoController.cs",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Controllers\\AccesoController.cs",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Controllers\\AccesoController.cs",
+              "RelativeToolTip": "VirtualLockerAPI\\Controllers\\AccesoController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T04:24:59.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Models\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "VirtualLockerAPI\\Models\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T04:25:40.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Item\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\Views\\Item\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\Views\\Item\\Edit.cshtml",
+              "RelativeToolTip": "VirtualLockerAPI\\Views\\Item\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T01:15:53.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "VirtualLockerAPI\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Eduardo Zequeira G\\Desktop\\Dev\\Proyectos dotnet\\Nueva carpeta\\Login\\VirtualLockerAPI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "VirtualLockerAPI\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-10T23:17:13.265Z"
             }
           ]
         }

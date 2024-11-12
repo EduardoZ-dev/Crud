@@ -1,7 +1,7 @@
 ﻿@using System.Security.Claims;
 
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "";
 }
 
 <!-- Contenedor con alineación centrada y estilo -->
@@ -15,14 +15,16 @@
                         @User.Claims.Where(c => c.Type == ClaimTypes.Name).Select(c => c.Value).SingleOrDefault()
                     </span>
                 </h1>
+
+
             }
             <div style="background-color: transparent">
                 <p class="text-success fs-5 mb-4">
-                    Tienes acceso a tu casillero virtual. Puedes disfrutar de realizar un catálogo de todas las compras que piensas realizar.
+                    Ahora tienes acceso a tu casillero. Ya puedes visualizar y editar todas tus compras.
                 </p>
             </div>
             <div class="text-center mt-4" style="background-color: rgba(255, 255, 255, 0.5);">
-                  <a class="btn btn-success" asp-area="" asp-controller="Item" asp-action="Create">Accede a tu catalogo</a>
+                  <a class="btn btn-success" asp-area="" asp-controller="Item" asp-action="GetList">Ir a mis compras</a>
            </div>
         </div>
 
